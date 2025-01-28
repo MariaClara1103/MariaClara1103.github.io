@@ -36,6 +36,10 @@ body {
     min-width: 300px;
 }
 
+.menu2 {
+    padding-bottom: 60px;
+}
+
 @media (max-width: 768px) {
     .menu, .menu2 {
         width: 90%;
