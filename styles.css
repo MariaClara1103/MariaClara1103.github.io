@@ -25,7 +25,7 @@ body {
 
 @media (max-width: 768px) {
     body {
-        background: none; /* Remove o background do body */
+        background-size: 150%; /* Remove o background do body */
         background-color: #f5f5f5; /* Define um fundo neutro */
     }
 
