@@ -19,8 +19,16 @@ body {
     border-radius: 25px;
     background-color: Lavender;
     width: 50%;
+    max-width: 600px;
+    min-width: 300px;
 }
 
+@media (max-width: 768px) {
+    .menu, .menu2 {
+        width: 90%;
+        padding: 20px;
+    }
+}
 .menu2 {
     padding-bottom: 60px;
 }
