@@ -23,7 +23,7 @@ body {
 }
 
 /* Rest of your existing styles */
-.menu, .menu2 {
+.menu, .menu2, .menu3 {
     display: block;
     position: relative;
     text-align: justify;
@@ -41,13 +41,16 @@ body {
 }
 
 @media (max-width: 768px) {
-    .menu, .menu2 {
+    .menu, .menu2, .menu3 {
         width: 90%;
         margin: 20px auto;
         border-radius: 15px;
     }
 }
 
+.menu3 {
+    padding-bottom: 100px;
+}
 .title, h2 {
     color: Indigo;
     text-align: center;
