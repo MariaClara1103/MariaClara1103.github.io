@@ -63,15 +63,19 @@ h1 {
     width: 45%;
 }
 
-.start {
-/* Start button container */
-.start {
-    display: block;
-    margin: 0 auto;  /* Centraliza horizontalmente */
+.link {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
     position: absolute;
     bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 0;
+}
+
+/* Start button */
+.start {
+    margin: 0 auto;
 }
 
 /* Próximo button */
