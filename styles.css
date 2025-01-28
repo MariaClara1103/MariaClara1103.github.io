@@ -1,13 +1,28 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+/* Set background on html to ensure full coverage */
+html {
+    height: 100%;
+}
+
+/* Configure background on body */
 body {
     background-image: url(stars.jpg);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     font-family: "Lucida Console";
-    margin: 0; /* Remove espaços desnecessários */
-    padding: 0;
-    height: 100vh; /* Garante que o background ocupe toda a altura da tela */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
+/* Rest of your existing styles */
 .menu, .menu2 {
     display: block;
     position: relative;
@@ -23,14 +38,10 @@ body {
 
 @media (max-width: 768px) {
     .menu, .menu2 {
-        width: 90%; /* Ajusta para ocupar 90% da largura da tela */
-        margin: 20px auto; /* Centraliza mantendo uma margem */
+        width: 90%;
+        margin: 20px auto;
         border-radius: 15px;
     }
-}
-
-.menu2 {
-    padding-bottom: 60px;
 }
 
 .title, h2 {
