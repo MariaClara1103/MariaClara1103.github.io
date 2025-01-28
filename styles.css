@@ -1,6 +1,7 @@
 body {
     background-image: url(stars.jpg);
-    background-size: 90%;
+    background-size: cover;
+    background-position: center;
     font-family: "Lucida Console";
 }
 
