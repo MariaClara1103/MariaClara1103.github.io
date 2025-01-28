@@ -26,10 +26,9 @@ body {
 @media (max-width: 768px) {
     body {
         background-size: 150%; /* Remove o background do body */
-        background-color: #f5f5f5; /* Define um fundo neutro */
     }
 
-    .menu {
+    .menu, menu2 {
         width: 100vw; /* Faz a seção ocupar toda a largura da tela */
         height: 100vh; /* Faz a seção ocupar toda a altura da tela */
         margin: 0; /* Remove as margens */
