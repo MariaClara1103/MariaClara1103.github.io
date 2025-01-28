@@ -24,9 +24,20 @@ body {
 }
 
 @media (max-width: 768px) {
-    .menu, .menu2 {
-        width: 90%;
-        padding: 20px;
+    body {
+        background: none; /* Remove o background do body */
+        background-color: #f5f5f5; /* Define um fundo neutro */
+    }
+
+    .menu {
+        width: 100vw; /* Faz a seção ocupar toda a largura da tela */
+        height: 100vh; /* Faz a seção ocupar toda a altura da tela */
+        margin: 0; /* Remove as margens */
+        border-radius: 0; /* Remove as bordas arredondadas para ocupar toda a tela */
+        display: flex; 
+        flex-direction: column;
+        justify-content: center; /* Centraliza o conteúdo verticalmente */
+        align-items: center; /* Centraliza horizontalmente */
     }
 }
 .menu2 {
