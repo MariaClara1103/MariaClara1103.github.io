@@ -63,6 +63,20 @@ h1 {
     width: 45%;
 }
 
+.start {
+    display: block;
+    margin: auto;
+}
+
+.voltar {
+    size: 20px;
+    float: left;
+}
+
+.proximo {
+    float: inline-end;
+}
+
 .start, .voltar, .proximo {
     background-color: Indigo;
     color: LavenderBlush;
